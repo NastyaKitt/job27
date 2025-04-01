@@ -1,0 +1,488 @@
+@media (max-width:1440px) {
+    header {
+        padding: 10rem 8rem 0;
+    }
+    .heroSection, .myMission, .iWait, .hello, .review, .map, footer {
+        padding: 2rem 8rem;
+        margin-top: 6rem;
+    }
+    .heroSection {
+        & span {
+            & button {
+                margin-left: 40%;
+            }
+
+            & span {
+                & h1 {
+                    margin-left: 2rem;
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                & h2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                width: calc(32% - 2rem);
+                padding: 1rem;
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList {
+            & .iWaitItem {
+                width: calc(32% - 2rem);
+                padding: 1rem;
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList {
+            & .iWaitItem {
+                & h2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList {
+            & .iWaitItem {
+                &:hover {
+                    & span {
+                        & p {
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .map {
+        padding: 0;
+    }
+    .popupForm {
+        & form {
+            width: 75%;
+            
+        }
+        & form {
+            & h1 {
+                font-size: 3rem;
+            }
+        }
+    
+    }
+    .popupPolit {
+        & .politica {
+            width: 50%;
+        }
+    }
+    .hello {
+        & span {
+            flex-direction: row;
+            & img {
+                height: 40rem;
+            }
+        }
+    }
+    
+    
+}
+@media (max-width:1024px) {
+    html {
+        font-size: 14px;
+    }
+    .heroSection, .myMission, .iWait, .hello, .review, .map, footer {
+        padding: 2rem 4rem;
+        margin-top: 6rem;
+    }
+    header {
+        padding: 10rem 4rem 0;
+        flex-direction: column;
+        & a {
+            margin: 1rem 0;
+        }
+    }
+    .heroSection {
+        & span {
+            & span {
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+            }
+        }
+    }
+    .heroSection {
+        & span {
+            & span {
+                & h1 {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .heroSection {
+        & span {
+            & button {
+                margin-left: 0;
+                width: 100%;
+                margin-top: 2rem;
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            & .myMissionItem {
+                width: calc(49% - 3rem);
+                padding: 1rem;
+                &:last-child {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            & .iWaitItem {
+                width: calc(49% - 3rem);
+                padding: 1rem;
+                &:last-child {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .map {
+        padding: 0;
+    }
+    .review {
+        & .buttons {
+            margin-top: 2rem;
+        }
+    }
+    footer {
+        & span {
+            margin-top: 2rem;
+            height: 7rem;
+        }
+    }
+    .hello {
+        & span {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            & p {
+                width: 100%;
+            }
+        }
+    }
+    
+    
+    
+
+    
+}
+@media (max-width:768px) {
+    .hello {
+        & span {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+    .hello {
+        & span {
+            & img {
+                width: 20rem;
+                height: 20rem;
+            }
+        }
+    }
+    .hello {
+        & span {
+            & p {
+                width: 100%;
+                padding: 1rem;
+                margin-top: 2rem;
+            }
+        }
+    }
+    .popupPolit {
+        & .politica {
+            width: 75%;
+        }
+    }
+    .heroSection {
+        & span {
+            & span {
+                & h1 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    .myMission {
+        & h1 {
+            font-size: 2rem;
+            margin-left: 0;
+        }
+    }
+    .iWait {
+        & h1 {
+            font-size: 2rem;
+            margin-left: 0;
+        }
+    }
+    .hello {
+        & h1 {
+            font-size: 2rem;
+            margin-left: 0;
+        }
+    }
+    .review {
+        & h1 {
+            font-size: 2rem;
+            margin-left: 0rem;
+        }
+    }
+    header {
+        padding: 6rem 4rem 0;
+    }    
+    .iWait {
+        & .iWaitList {
+            & .iWaitItem {
+                &:hover {
+                    & span {
+                        & p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                & h2 {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                &:hover {
+                    & span {
+                        & p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+}
+@media (max-width:425px) {
+    html {
+        font-size: 12px;
+    }
+    header {
+        text-align: center;
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                &.show {
+                    & img {
+                        height: 10rem;
+                        width: 10rem;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                height: 20rem;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                &.show {
+                    & span {
+                        & h2 {
+                            margin: 1rem 0;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & button {
+            height: 5rem;
+            font-size: 1.25rem;
+        }
+    }
+    .map {
+        height: 50vh;
+    }
+    footer {
+        & span {
+            height: auto;
+            flex-direction: column;
+            align-items: self-start;
+            & p {
+                width: 100%;
+            }
+        }
+    }
+    .popupPolit {
+        & .politica {
+            width: 85%;
+        }
+    }
+    .popupForm {
+        & form {
+            & h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+    .popupForm {
+        & form {
+            height: 40rem;
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                width: 100%;
+                padding: 1rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList {
+            & .iWaitItem {
+                width: 100%;
+                padding: 1rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+    .hello {
+        & span {
+            & p {
+                font-size: 1rem;
+            }
+        }
+    }
+    .heroSection, .myMission, .iWait, .hello, .review, footer {
+        padding: 2rem 2rem;
+        margin-top: 6rem;
+    }
+    
+    
+    
+}
+@media (max-width:375px) {
+    .heroSection {
+        & span {
+            & span {
+                & span {
+                    width: 20rem;
+                    height: 20rem;
+                }
+            }
+        }
+    }
+    .heroSection {
+        & span {
+            & span {
+                & h1 {
+                    font-size: 3rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .myMission {
+        & .myMissionList {
+            & .myMissionItem {
+                &:hover {
+                    transform: none;
+                }
+            }
+        }
+    }
+    .iWait {
+        & .iWaitList  {
+            & .iWaitItem  {
+                &:hover {
+                    transform: none;
+                }
+            }
+        }
+    }
+    .popupPolit {
+        & .politica {
+            width: 85%;
+            height: 35rem;
+            padding: 1rem;
+            & h1 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .heroSection {
+        & span {
+            & span {
+                & span {
+                    & img {
+                        width: 13rem;
+                        bottom: -5rem;
+                        left: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                height: 22rem;
+            }
+        }
+    }
+
+}
